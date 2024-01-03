@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Outfit', sans-serif;
+}
+.page1{
+	background-color: #f64740;
+}
+.page2{
+	background-color: #3772ff; 
+}
+.page3{
+	background-color: #fdca40
+}
+.page4{
+	background-color: #00ffae;
+}
+.page5{
+	background-color: #06070e;
+}
+.interface{
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+	height: 100vh;
+}
+section{
+	position: sticky;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	scroll-snape-align: start;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+/* Estilizando o controle deslizante (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #4CAF50; /* Cor do controle deslizante */
+  border-radius: 6px; /* Cantos arredondados */
+}
+
+/* Estilizando a trilha (track) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor da trilha */
+}
